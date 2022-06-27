@@ -1,0 +1,117 @@
+@media screen and (max-width:900px){
+    header {
+        padding: 0;
+    }
+
+    .icon-page {
+        width: 80%;
+        justify-content: left;
+    }
+
+    .buttonMini {
+        width: 20%;
+        display: block;
+        text-align: right;
+        z-index: 100;
+    }
+
+    .phoneButton {
+        padding: 1rem;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    .phoneButton:hover {
+        box-shadow: 0px 0ox 1rem #aaa;
+    }
+
+    /* navbar */
+
+    .navbar {
+        /* display: none; */
+        width: 75%;
+        min-height: 100vh;
+        height: 100%;
+        margin-left: 25%;
+        padding: 2.5rem;
+        flex-direction: column;
+        justify-content: flex-start;
+        background-color: #fff;
+        position: absolute;
+        transform: translateX(100%);
+        display: none;
+        animation-timing-function: ease-in-out;
+    }
+
+    .navbar div {
+        width: 100%;
+    }
+
+    .options-li > li {
+        display: block;
+        margin: 1rem 0;
+    }
+
+    .user-options {
+        width: 100%;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .feature-options {
+        min-width: 150px;
+    }
+    
+    .company-options {
+        min-width: 120px;
+    }
+    
+    /* Main content */
+    
+    main article {
+        width: 100%;
+    }
+
+    /* container hero */ 
+
+    .img-hero {
+        height: 250px;
+        background: url("../images/image-hero-mobile.png");
+        background-size: 100% 100%;
+        order: 10;
+    }
+
+    /* Container text */
+
+    .content-container {
+        order: 20;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .content-container p {
+        text-align: center;
+    }
+
+    .content-container button {
+        font-size: 1rem;
+    }
+}
+
+@keyframes appearMenu {
+    0% {
+        transform: translateX(100%);
+    } 100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes disappearMenu {
+    0% {
+        transform: translateX(0);
+    } 100% {
+        transform: translateX(100%);
+    }
+}
