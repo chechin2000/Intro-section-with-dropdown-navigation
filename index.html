@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="author" content="César González" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro section with dropdown navigation</title>
+
+    <link rel="icon" href="./images/favicon-32x32.png">
+
+    <link rel="stylesheet" href="./Normalize/normalize.css">
+    <link rel="stylesheet" href="./styles/general.css">
+    <link rel="stylesheet" href="./styles/bigStyle.css">
+    <link rel="stylesheet" href="./styles/miniStyle.css">
+    <link rel="stylesheet" href="./styles/mediumStyle.css">
+
+</head>
+<body>
+
+    <div class="clickMobileOption"></div>
+
+    <header>
+        <div class="icon-page">
+            <img src="./images/logo.svg" alt="LOGO">
+        </div>
+
+        <div class="buttonMini">
+            <button class="phoneButton">
+                <img src="./images/icon-menu.svg" alt="" class="btnAppearImg">
+            </button>
+        </div>
+
+        <nav class="navbar">
+            <div class="menu-options">
+                <ul class="options-li">
+                    <li>
+                        <span class="features-menu">
+                            <a href="#">Features</a> <img src="./images/icon-arrow-down.svg" alt="arrow-down" class="img-arrow" id="featureImg"> 
+                        </span>
+                        <ul class="display-none feature-options">
+                            <li> <img src="./images/icon-todo.svg" alt="Todo"> <a>Todo List</a></li>
+                            <li> <img src="./images/icon-calendar.svg" alt="Calendar"> <a>Calendar</a></li>
+                            <li> <img src="./images/icon-reminders.svg" alt="Reminders"> <a>Reminders</a></li>
+                            <li> <img src="./images/icon-planning.svg" alt="Planning"> <a>Planning</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span class="company-menu">
+                            <a href="#">Company</a> <img src="./images/icon-arrow-down.svg" alt="arrow-down" class="img-arrow" id="companyImg">
+                        </span>
+                        <ul class="display-none company-options">
+                            <li><a>History</a></li>
+                            <li><a>Our team</a></li>
+                            <li><a>Blog</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Careers</a> </li>
+                    <li><a href="#">About</a> </li>
+                </ul>
+            </div>
+            <div class="user-options">
+                <button class="btnLogin">Login</button>
+                <button class="btnRegister">Register</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <article class="content-container">
+            <h1>Make <span class="br"></span> remote work</h1>
+ 
+            <p>Get your team in sync. no matter your location. Streamline processes. create team rituals. and watch productivity soar.</p>
+
+            <button class="btnLearnMore">Learn More</button>
+
+            <div class="imgs-container">
+                <img src="./images/client-databiz.svg" alt="DataBiz">
+                <img src="./images/client-audiophile.svg" alt="AudioPhile">
+                <img src="./images/client-meet.svg" alt="Meet">
+                <img src="./images/client-maker.svg" alt="Maker">
+            </div>
+        </article>
+        <article class="img-hero">
+
+        </article>
+    </main>
+    
+
+    <script src="./scripts/index.js"></script>
+    <script src="./scripts/indexJr.js"></script>
+</body>
+</html>
