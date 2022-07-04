@@ -38,7 +38,6 @@ window.addEventListener("resize", () => {
     graySpace.style.display = "none";
   } else {
     if (hidden === true) {
-      navbar.style.display = "none";
       graySpace.style.display = "none";
     } else {
 
